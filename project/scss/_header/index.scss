@@ -1,0 +1,22 @@
+header{
+    background-color: #23252A;
+    border-bottom: #6A6A6A solid 1px;
+    color: white;
+    .borderLogo{
+        padding: 0 15px;
+        border: solid 2px white;
+        margin-right: 60px;
+    }
+    .btn-custom{
+        font-size: 13px;
+        padding: 10px 15px;
+    }
+    .social:not(:first-child){
+        margin-left: 15px;
+    }
+    .nav-link{
+        color: white;
+        
+    }
+
+}

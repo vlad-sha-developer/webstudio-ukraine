@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
+body {
+  font-family: "Roboto", sans-serif;
+}
+body h1 {
+  font-weight: 900;
+  font-size: 70px;
+  color: white;
+}
+body a {
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+}
+body .btn-custom {
+  font-weight: 900px;
+  color: white;
+  background-color: #FD0037;
+}
+body .text {
+  font-size: 16px;
+}
+
+@media (max-width: 992px) {
+  body h1 {
+    font-size: 60px;
+  }
+}
+@media (max-width: 768px) {
+  body h1 {
+    font-size: 35px;
+  }
+}
+@media (max-width: 576px) {
+  body h1 {
+    font-size: 30px;
+  }
+}
+header {
+  background-color: #23252A;
+  border-bottom: #6A6A6A solid 1px;
+  color: white;
+}
+header .borderLogo {
+  padding: 0 15px;
+  border: solid 2px white;
+  margin-right: 60px;
+}
+header .btn-custom {
+  font-size: 13px;
+  padding: 10px 15px;
+}
+header .social:not(:first-child) {
+  margin-left: 15px;
+}
+header .nav-link {
+  color: white;
+}
+
+.createSite {
+  background-color: #23252A;
+  text-align: center;
+  padding: 90px;
+  color: white;
+}
+.createSite h1 {
+  margin-bottom: 30px;
+}
+.createSite .text {
+  margin-bottom: 30px;
+}
+.createSite .rightNow {
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+.createSite .dataInputs {
+  padding: 20px 30px;
+  border-radius: 5px;
+}
+.createSite .btn-custom {
+  width: 100%;
+  padding: 20px 0;
+}
+.createSite .check {
+  width: 20px !important;
+  height: 20px !important;
+}
+.createSite .check:checked {
+  background-color: #FD0037;
+}
+.createSite label {
+  font-size: 15px;
+}
+
+@media (max-width: 1200px) {
+  .createSite .dataInputs {
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .createSite .rightNow {
+    font-size: 25px;
+  }
+}
+@media (max-width: 578px) {
+  .createSite .text {
+    font-size: 14px;
+  }
+  .createSite .rightNow {
+    font-size: 20px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

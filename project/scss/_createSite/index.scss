@@ -1,0 +1,62 @@
+.createSite{
+    background-color: #23252A;
+    text-align: center;
+    padding: 90px;
+    color: white;
+    h1{
+        margin-bottom: 30px;
+    }
+    .text{
+        margin-bottom: 30px;
+    }
+    .rightNow{
+        font-size: 30px;
+        margin-bottom: 50px;
+    }
+    .dataInputs{
+        padding: 20px 30px;
+        border-radius: 5px;
+    }
+    .btn-custom{
+        width: 100%;
+        padding: 20px 0;
+    }
+    .check{
+        width: 20px!important;
+        height: 20px!important;
+        
+        
+    }
+    .check:checked{
+     background-color: #FD0037;
+    }
+    label{
+        font-size: 15px;
+        
+    }
+}
+@media (max-width:1200px){
+    .createSite{
+        .dataInputs{
+            width: 100%;
+           
+        }
+    }
+}
+@media (max-width:768px){
+    .createSite{
+        .rightNow{
+            font-size: 25px;
+        }
+    }
+}
+@media (max-width:578px){
+    .createSite{
+        .text{
+            font-size: 14px;
+        }
+        .rightNow{
+            font-size: 20px;
+        }
+    }
+}
