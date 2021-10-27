@@ -1,0 +1,56 @@
+.createSite {
+  background-color: #23252A;
+  text-align: center;
+  padding: 90px;
+  color: white;
+  margin-bottom: 100px;
+}
+.createSite h1 {
+  margin-bottom: 30px;
+}
+.createSite .text {
+  margin-bottom: 30px;
+}
+.createSite .rightNow {
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+.createSite .dataInputs {
+  padding: 20px 30px;
+  border-radius: 5px;
+}
+.createSite .btn-custom {
+  width: 100%;
+  padding: 20px 0;
+}
+.createSite .check {
+  width: 20px !important;
+  height: 20px !important;
+}
+.createSite .check:checked {
+  background-color: #FD0037;
+}
+.createSite label {
+  font-size: 15px;
+}
+
+@media (max-width: 1200px) {
+  .createSite .dataInputs {
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .createSite .rightNow {
+    font-size: 25px;
+  }
+}
+@media (max-width: 578px) {
+  .createSite .text {
+    font-size: 14px;
+  }
+  .createSite .rightNow {
+    font-size: 20px;
+  }
+}
+
+/*# sourceMappingURL=createSite.css.map */

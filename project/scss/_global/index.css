@@ -1,0 +1,38 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+body h1 {
+  font-weight: 900;
+  font-size: 70px;
+  color: white;
+}
+body a {
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+}
+body .btn-custom {
+  font-weight: 900;
+  color: white;
+  background-color: #FD0037;
+}
+body .text {
+  font-size: 16px;
+}
+
+@media (max-width: 992px) {
+  body h1 {
+    font-size: 60px;
+  }
+}
+@media (max-width: 768px) {
+  body h1 {
+    font-size: 35px;
+  }
+}
+@media (max-width: 576px) {
+  body h1 {
+    font-size: 30px;
+  }
+}
+
+/*# sourceMappingURL=index.css.map */

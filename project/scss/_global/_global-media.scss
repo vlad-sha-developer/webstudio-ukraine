@@ -10,12 +10,23 @@
         h1{
             font-size: 35px;
         }
+        h2{
+            font-size: 23px;
+        }
     }
 }
 @media (max-width:576px){
     body{
         h1{
             font-size: 30px;
+        }
+    }
+}
+
+@media (max-width: 320px) {
+    body{
+        h2{
+            font-size: 11px;
         }
     }
 }
