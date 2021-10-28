@@ -7,7 +7,6 @@
     }
     .shadows{
       margin: 0;
-      width: 216px;
     }
     span{
       font-size: 20px;
@@ -16,21 +15,12 @@
     .span_wrapper{
       padding: 30px 0 30px 0;
     }
-    div.shadows.indent{
-      margin-right: 30px;
-    }
   }
 }
 
 @media (max-width: 576px) {
   .why_us{
-    .shadows{
-      margin: 0;
-      width: 100%;
-    }
-    div.shadows.indent{
-      margin-right: 0;
-    }
+
     .number{
       font-size: 40px;
       padding: 0 0 15px 0;
