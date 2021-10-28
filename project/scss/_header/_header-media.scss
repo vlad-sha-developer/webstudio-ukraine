@@ -1,0 +1,25 @@
+@media (max-width:1400px){
+    header{
+        .borderLogo{
+            margin-right: 30px;
+        }
+    }
+}
+@media (max-width:768px){
+    header{
+        .borderLogo{
+            img{
+                width: 180px;
+            }
+        }
+    }
+}
+@media (max-width:578px){
+    header{
+        .borderLogo{
+            img{
+                width: 150px;
+            }
+        }
+    }
+}

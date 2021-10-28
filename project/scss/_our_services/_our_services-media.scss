@@ -1,0 +1,25 @@
+@media (max-width: 1200px) {
+  .our_services {
+    .slide_prev{
+      left: -4%;
+    }
+    .slide_next{
+      left: 101%;
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .our_services{
+    .slide_prev{
+      left: -8%;
+    }
+    .slide_next{
+      left: 105%;
+    }
+    .slide_button{
+      padding: 5px 45px;
+      text-align: center;
+    }
+  }
+}
