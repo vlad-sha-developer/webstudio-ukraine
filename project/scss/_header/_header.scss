@@ -6,6 +6,7 @@ header{
     padding: 0 15px;
     border: solid 2px white;
     margin-right: 60px;
+
   }
   .btn-custom{
     font-size: 13px;
@@ -17,6 +18,9 @@ header{
   .nav-link{
     color: white;
 
+  }
+  a:hover{
+    color: #FD0037!important;
   }
 
 }
