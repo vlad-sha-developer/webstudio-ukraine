@@ -1,0 +1,103 @@
+@media (max-width: 992px) {
+  .footer{
+    .contact_wrp{
+      padding: 0;
+    }
+      .advertising{
+        margin: 0;
+      }
+      .advertising_wrp{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 30px 0 0 0;
+      }
+      .contact_wrp{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 30px 0 0 0;
+      }
+      .contact{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+  }
+
+@media (max-width: 576px) {
+  .footer{
+    h3{
+      font-size: 20px;
+      margin: 0 0 30px;
+    }
+    .services_title{
+      margin: 0 0 30px 0;
+    }
+    .about_company_wrp{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .about_company{
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      margin: 0 0 30px 0;
+    }
+    .network_wrp{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      margin: 0 0 30px 0;
+    }
+    .services_wrp{
+      margin: 0 0 30px 0;
+    }
+    .services_item{
+      justify-content: space-around;
+    }
+    .advertising{
+      align-items: center;
+    }
+  }
+}
+
+@media (max-width: 320px) {
+  .footer{
+    .about_company_wrp,.network_wrp,.services_wrp,.advertising_wrp,.contact_wrp{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      margin: 0 0 50px 0;
+    }
+    .about_company{
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+    }
+    .services_item {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    .services_title{
+      margin: 0 0 15px 0;
+    }
+    .advertising{
+      align-items: center;
+    }
+  }
+}
