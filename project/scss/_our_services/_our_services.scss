@@ -71,10 +71,12 @@
     border: 2px solid transparent;
     width: 15px;
     height: 15px;
-
     &:hover {
       border-color: #FD0037;
     }
+  }
+  .slide_indicator [data-bs-target]:not(:last-child) {
+    margin: 0 20px 0 0;
   }
   .slide_arrow{
     //background-image: url("./img/arrow_next.svg");

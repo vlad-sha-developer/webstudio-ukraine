@@ -307,6 +307,9 @@ header a:hover {
 .our_services .slide_indicator [data-bs-target]:hover {
   border-color: #FD0037;
 }
+.our_services .slide_indicator [data-bs-target]:not(:last-child) {
+  margin: 0 20px 0 0;
+}
 @media (max-width: 1200px) {
   .our_services .slide_prev {
     left: -4%;
@@ -323,8 +326,42 @@ header a:hover {
     left: 105%;
   }
   .our_services .slide_button {
-    padding: 5px 45px;
+    padding: 13px 25px;
     text-align: center;
+  }
+  .our_services .slide_text {
+    font-size: 20px;
+    margin: 0 0 25px 0;
+  }
+  .our_services .slide_wrapper:not(:last-child) {
+    padding: 0 40px 0 0;
+  }
+  .our_services .slide_title {
+    font-size: 25px;
+    margin: 0 0 50px 0;
+  }
+  .our_services .slide_ellipse {
+    margin: 0 0 25px 0;
+  }
+}
+@media (max-width: 768px) {
+  .our_services .slide_next, .our_services .slide_prev {
+    display: none;
+  }
+  .our_services .slide_indicator {
+    bottom: -23%;
+  }
+  .our_services .slide_indicator [data-bs-target]:not(:last-child) {
+    margin: 0 15px 0 0;
+  }
+}
+@media (max-width: 576px) {
+  .our_services .main_slide_wrp {
+    flex-direction: column;
+    align-items: center;
+  }
+  .our_services .slide_wrapper:not(:last-child) {
+    padding: 0 0 50px 0;
   }
 }
 
