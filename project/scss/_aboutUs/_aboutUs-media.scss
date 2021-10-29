@@ -1,0 +1,17 @@
+@media (max-width:992px){
+    .aboutUs{
+        img{
+            width: 100%;
+        }
+    }
+}
+@media (max-width:576px){
+    .aboutUs{
+        .text{
+            font-size: 14px;
+        }
+        li{
+            font-size: 14px;
+        }
+    }
+}

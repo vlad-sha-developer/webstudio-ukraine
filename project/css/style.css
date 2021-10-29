@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
 body {
   font-family: "Roboto", sans-serif;
-  background-color: #E5E5E5;
 }
 body h1 {
   font-weight: 900;
@@ -39,7 +38,7 @@ body .text {
     font-size: 35px;
   }
   body h2 {
-    font-size: 23px;
+    font-size: 30px;
   }
   body .container {
     max-width: 748px;
@@ -49,10 +48,8 @@ body .text {
   body h1 {
     font-size: 30px;
   }
-}
-@media (max-width: 320px) {
   body h2 {
-    font-size: 24px;
+    font-size: 27px;
   }
 }
 header {
@@ -385,6 +382,26 @@ header a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+}
+.aboutUS {
+  padding: 90px 0;
+}
+.aboutUS .text {
+  line-height: 23px;
+}
+
+@media (max-width: 992px) {
+  .aboutUs img {
+    width: 100%;
+  }
+}
+@media (max-width: 576px) {
+  .aboutUs .text {
+    font-size: 14px;
+  }
+  .aboutUs li {
+    font-size: 14px;
   }
 }
 
