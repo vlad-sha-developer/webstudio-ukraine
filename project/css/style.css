@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
 body {
   font-family: "Roboto", sans-serif;
+  background-color: #E5E5E5;
 }
 body h1 {
   font-weight: 900;
@@ -362,6 +363,28 @@ header a:hover {
   }
   .our_services .slide_wrapper:not(:last-child) {
     padding: 0 0 50px 0;
+  }
+}
+.our_cases .our_cases_title {
+  text-align: center;
+}
+.our_cases img {
+  max-width: 370px;
+  max-height: 370px;
+  width: 100%;
+}
+.our_cases .our_cases_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+@media (max-height: 768px) {
+  .our_cases .our_cases_item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 

@@ -1,0 +1,16 @@
+.our_cases{
+  .our_cases_title{
+    text-align: center;
+  }
+  img{
+    max-width: 370px;
+    max-height: 370px;
+    width: 100%;
+  }
+  .our_cases_wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+}
