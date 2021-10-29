@@ -1,10 +1,10 @@
 @media (max-width: 1200px) {
   .our_services {
     .slide_prev{
-      left: -4%;
+      left: -2%;
     }
     .slide_next{
-      left: 101%;
+      right: -2%;
     }
   }
 }
@@ -12,10 +12,10 @@
 @media (max-width: 992px) {
   .our_services{
     .slide_prev{
-      left: -8%;
+      left: -4%;
     }
     .slide_next{
-      left: 105%;
+      right: -4%;
     }
     .slide_button{
       padding: 13px 25px;
@@ -40,8 +40,11 @@
 
 @media (max-width: 768px) {
   .our_services {
-    .slide_next, .slide_prev {
-      display: none;
+    .slide_prev{
+      left: -1%;
+    }
+    .slide_next{
+      right: -1%;
     }
 
     .slide_indicator {
@@ -56,6 +59,12 @@
 
 @media (max-width: 576px){
   .our_services{
+    .slide_prev{
+      left: 0%;
+    }
+    .slide_next{
+      right: 0%;
+    }
     .main_slide_wrp{
       flex-direction: column;
       align-items: center;

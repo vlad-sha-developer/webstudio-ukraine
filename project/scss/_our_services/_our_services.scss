@@ -6,11 +6,8 @@
     display: flex;
     justify-content: center;
   }
-  .slide_title{
-    color: white;
-    display: flex;
-    justify-content: center;
-    margin: 0 0 42px 0;
+  .carousel-inner{
+    width: 90%;
   }
   .slide_wrapper{
     color: white;
@@ -47,7 +44,7 @@
   }
   .slide_prev{
     position: absolute;
-    left: -1%;
+    left: 3%;
     top: 53%;
     background: #C4C4C4;
     max-width: 35px;
@@ -56,7 +53,7 @@
   }
   .slide_next{
     position: absolute;
-    left: 98%;
+    right: 3%;
     top: 53%;
     background: #C4C4C4;
     max-width: 35px;
@@ -78,7 +75,5 @@
   .slide_indicator [data-bs-target]:not(:last-child) {
     margin: 0 20px 0 0;
   }
-  .slide_arrow{
-    //background-image: url("./img/arrow_next.svg");
-  }
+
 }
