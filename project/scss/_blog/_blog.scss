@@ -1,0 +1,31 @@
+.blog{
+    padding: 90px 0;
+    .wrapper{
+        padding: 0 15px;
+        img{
+            width: 100%;
+        }
+        .text-wrapper{
+            background-color: #F1F1F1;
+            padding: 15px;
+            border-radius: 7px;
+            .time{
+                margin-bottom: 10px;
+            }
+            h3{
+                font-size: 20px;
+                font-weight: bold;
+                margin-bottom: 15px;
+            }
+            .description{
+                margin-bottom: 15px;
+            }
+            .moreInfo{
+                font-weight: 500;
+                color: #FD0037;
+            }
+
+        }
+
+    }
+}

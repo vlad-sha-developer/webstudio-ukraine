@@ -430,4 +430,34 @@ header a:hover {
   padding: 20px 0;
 }
 
+.blog {
+  padding: 90px 0;
+}
+.blog .wrapper {
+  padding: 0 15px;
+}
+.blog .wrapper img {
+  width: 100%;
+}
+.blog .wrapper .text-wrapper {
+  background-color: #F1F1F1;
+  padding: 15px;
+  border-radius: 7px;
+}
+.blog .wrapper .text-wrapper .time {
+  margin-bottom: 10px;
+}
+.blog .wrapper .text-wrapper h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.blog .wrapper .text-wrapper .description {
+  margin-bottom: 15px;
+}
+.blog .wrapper .text-wrapper .moreInfo {
+  font-weight: 500;
+  color: #FD0037;
+}
+
 /*# sourceMappingURL=style.css.map */
