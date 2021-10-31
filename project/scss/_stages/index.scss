@@ -1,0 +1,33 @@
+.stages{
+    padding: 90px 0;
+    .numbers{
+        color: #FD0037;
+        font-size: 70px;
+        font-weight: 900;
+        margin-right: 15px;
+    }
+    .text{
+        font-size: 30px;
+        
+    }
+}
+@media(max-width:768px){
+    .stages{
+        .numbers{
+            font-size: 55px;
+        }
+        .text{
+            font-size: 24px;
+        }
+    }
+}
+@media(max-width:576px){
+    .stages{
+        .numbers{
+            font-size: 45px;
+        }
+        .text{
+            font-size: 20px;
+        }
+    }
+}
