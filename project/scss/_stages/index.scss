@@ -1,5 +1,5 @@
 .stages{
-    padding: 90px 0;
+    padding: 90px 150px;
     .numbers{
         color: #FD0037;
         font-size: 70px;
@@ -11,8 +11,15 @@
         
     }
 }
+@media (max-width: 1200px ) {
+    .stages{
+        padding: 90px 0;
+    }
+
+}
 @media(max-width:768px){
     .stages{
+        padding: 90px 0 0 0;
         .numbers{
             font-size: 55px;
         }

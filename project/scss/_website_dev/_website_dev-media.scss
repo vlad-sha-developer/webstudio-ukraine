@@ -1,0 +1,40 @@
+@media (max-width: 1200px) {
+  .website_dev{
+    padding: 90px 0;
+    .first,.second{
+      padding: 0;
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .website_dev{
+    ul{
+      li{
+        font-size: 25px;
+      }
+      li:before{
+        width: 15px;
+        height: 15px;
+      }
+    }
+  }
+}
+
+@media (max-width: 650px) {
+  .website_dev{
+    ul{
+      li{
+        font-size: 20px;
+      }
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .website_dev{
+    .website_dev_wrp{
+      justify-content: flex-start!important;
+    }
+  }
+}
