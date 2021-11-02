@@ -380,6 +380,10 @@ header .navbar-toggler-icon {
   align-items: center;
   flex-wrap: wrap;
 }
+.our_cases .our_cases_item:hover {
+  transform: scale(1.1);
+  transition: 500ms;
+}
 
 @media (max-height: 768px) {
   .our_cases .our_cases_item {
@@ -555,6 +559,8 @@ header .navbar-toggler-icon {
 .footer a {
   color: #6C6C6C;
   font-size: 13px;
+  display: block;
+  margin: 5px 0;
 }
 .footer h3 {
   margin: 0 0 15px 0;
@@ -845,11 +851,7 @@ header .navbar-toggler-icon {
   transform: rotate(180deg);
 }
 .our_work .prev_slide {
-  left: -1%;
   position: absolute;
-}
-.our_work .next_slide {
-  left: 86%;
 }
 
 @media (max-width: 768px) {
