@@ -18,6 +18,12 @@
         height: 15px;
       }
     }
+    ul{
+      .fix_li:before{
+        width: 25px;
+        height: 15px;
+      }
+    }
   }
 }
 
@@ -26,6 +32,28 @@
     ul{
       li{
         font-size: 20px;
+      }
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .website_dev{
+    ul{
+      .fix_li:before{
+        width: 15px;
+        height: 15px;
+      }
+    }
+  }
+}
+
+@media (max-width: 381px) {
+  .website_dev{
+    ul{
+      .fix_li:before{
+        width: 18px;
+        height: 15px;
       }
     }
   }
