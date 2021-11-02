@@ -76,6 +76,9 @@ header .social:not(:first-child) {
 header .nav-link {
   color: white;
 }
+header a {
+  color: white;
+}
 header a:hover {
   color: #FD0037 !important;
 }
@@ -904,6 +907,40 @@ header .navbar-toggler-icon {
   .sec_item {
     display: none;
   }
+}
+.services {
+  background-color: #23252A;
+}
+.services h2 {
+  color: #FAFAFA;
+}
+.services .head {
+  font-size: 24px;
+}
+.services p {
+  color: #FAFAFA;
+  margin: 0;
+}
+.services .serv_text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  max-width: 239px;
+  width: 100%;
+  margin: 15px 0 20px 0;
+}
+.services a {
+  background-color: #E91616;
+  color: #FAFAFA;
+  padding: 20px 65px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.services img {
+  margin: 0 0 25px 0;
 }
 
 /*# sourceMappingURL=style.css.map */
