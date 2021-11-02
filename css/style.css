@@ -797,11 +797,6 @@ header .navbar-toggler-icon {
     font-size: 20px;
   }
 }
-@media (max-width: 576px) {
-  .website_dev .website_dev_wrp {
-    justify-content: flex-start !important;
-  }
-}
 .questions {
   margin: 0 0 100px 0;
 }
