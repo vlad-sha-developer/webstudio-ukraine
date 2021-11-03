@@ -35,6 +35,23 @@
           text-align: center;
         }
       }
+      .about_company_wrp{
+        text-align: center;
+        padding-left: 0;
+        .about_company{
+          margin: 0;
+        }
+      }
+      .network_wrp{
+        text-align: center;
+        .network{
+          a{
+            display: flex;
+            justify-content: center;
+          }
+
+        }
+      }
     }
   }
 

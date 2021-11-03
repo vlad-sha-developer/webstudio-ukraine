@@ -646,6 +646,20 @@ header .navbar-toggler-icon {
   .footer .services_item .sec_item, .footer .services_item .first_item {
     text-align: center;
   }
+  .footer .about_company_wrp {
+    text-align: center;
+    padding-left: 0;
+  }
+  .footer .about_company_wrp .about_company {
+    margin: 0;
+  }
+  .footer .network_wrp {
+    text-align: center;
+  }
+  .footer .network_wrp .network a {
+    display: flex;
+    justify-content: center;
+  }
 }
 @media (max-width: 576px) {
   .footer h3 {
