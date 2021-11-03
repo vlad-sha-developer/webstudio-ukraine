@@ -671,7 +671,11 @@ header .navbar-toggler-icon {
     margin: 0 0 30px 0;
   }
   .footer .services_item {
-    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .footer .first_item, .footer .sec_item {
+    width: 100%;
+    text-align: center;
   }
   .footer .advertising {
     align-items: center;
@@ -899,12 +903,11 @@ header .navbar-toggler-icon {
   }
 }
 @media (max-width: 480px) {
-  .first_item {
+  .our_work .first_item {
     margin: 0;
     width: 100%;
   }
-
-  .sec_item {
+  .our_work .sec_item {
     display: none;
   }
 }

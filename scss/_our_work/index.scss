@@ -62,11 +62,14 @@
 }
 
 @media (max-width: 480px) {
-  .first_item{
-    margin: 0;
-    width: 100%;
+  .our_work{
+    .first_item{
+      margin: 0;
+      width: 100%;
+    }
+    .sec_item{
+      display: none;
+    }
   }
-  .sec_item{
-    display: none;
-  }
+
 }
