@@ -639,6 +639,14 @@ header .navbar-toggler-icon {
     align-items: center;
   }
 }
+@media (max-width: 768px) {
+  .footer .services_item {
+    padding: 0 40px;
+  }
+  .footer .services_item .sec_item, .footer .services_item .first_item {
+    text-align: center;
+  }
+}
 @media (max-width: 576px) {
   .footer h3 {
     font-size: 20px;
