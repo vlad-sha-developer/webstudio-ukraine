@@ -640,99 +640,57 @@ header .navbar-toggler-icon {
   }
 }
 @media (max-width: 768px) {
+  .footer .services_wrp {
+    padding: 0;
+  }
   .footer .services_item {
-    padding: 0 40px;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
   }
   .footer .services_item .sec_item, .footer .services_item .first_item {
     text-align: center;
+    width: 100%;
+    text-align: center;
   }
   .footer .about_company_wrp {
-    text-align: center;
-    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 20px 0;
+    padding: 0;
   }
   .footer .about_company_wrp .about_company {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     margin: 0;
   }
-  .footer .network_wrp {
+  .footer .services_title {
+    margin: 0 0 15px;
+  }
+  .footer .advertising_wrp {
+    margin: 0;
+    padding: 0;
     text-align: center;
+  }
+  .footer h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  .footer .network_wrp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 0 20px 0;
+    padding: 0;
   }
   .footer .network_wrp .network a {
     display: flex;
     justify-content: center;
-  }
-}
-@media (max-width: 576px) {
-  .footer h3 {
-    font-size: 20px;
-    margin: 0 0 30px;
-  }
-  .footer .services_title {
-    margin: 0 0 30px 0;
-  }
-  .footer .about_company_wrp {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  .footer .about_company {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    margin: 0 0 30px 0;
-  }
-  .footer .network_wrp {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin: 0 0 30px 0;
-    padding: 0;
-  }
-  .footer .services_wrp {
-    margin: 0 0 30px 0;
-    padding: 0;
-  }
-  .footer .services_item {
-    flex-wrap: wrap;
-  }
-  .footer .first_item, .footer .sec_item {
-    width: 100%;
-    text-align: center;
-  }
-  .footer .advertising {
-    align-items: center;
-  }
-}
-@media (max-width: 320px) {
-  .footer .about_company_wrp, .footer .network_wrp, .footer .services_wrp, .footer .advertising_wrp, .footer .contact_wrp {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin: 0 0 50px 0;
-  }
-  .footer .about_company {
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-  }
-  .footer .services_item {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-  .footer .services_title {
-    margin: 0 0 15px 0;
-  }
-  .footer .advertising {
-    align-items: center;
   }
 }
 .webCoding {
